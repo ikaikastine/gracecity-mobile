@@ -14,6 +14,9 @@
 		0AFCD2B61F169FD500E8168C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AFCD2B51F169FD500E8168C /* Assets.xcassets */; };
 		0AFCD2B91F169FD500E8168C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AFCD2B71F169FD500E8168C /* LaunchScreen.storyboard */; };
 		0AFCD2C41F169FD500E8168C /* Grace_City_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCD2C31F169FD500E8168C /* Grace_City_MobileTests.swift */; };
+		0AFCD2CF1F16A05C00E8168C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCD2CE1F16A05C00E8168C /* ThirdViewController.swift */; };
+		0AFCD2D31F16A49B00E8168C /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCD2D21F16A49B00E8168C /* FourthViewController.swift */; };
+		0AFCD2D51F16A4B600E8168C /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCD2D41F16A4B600E8168C /* FifthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		0AFCD2BF1F169FD500E8168C /* Grace City MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grace City MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AFCD2C31F169FD500E8168C /* Grace_City_MobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grace_City_MobileTests.swift; sourceTree = "<group>"; };
 		0AFCD2C51F169FD500E8168C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AFCD2CE1F16A05C00E8168C /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		0AFCD2D21F16A49B00E8168C /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		0AFCD2D41F16A4B600E8168C /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,9 @@
 				0AFCD2AC1F169FD500E8168C /* AppDelegate.swift */,
 				0AFCD2AE1F169FD500E8168C /* FirstViewController.swift */,
 				0AFCD2B01F169FD500E8168C /* SecondViewController.swift */,
+				0AFCD2CE1F16A05C00E8168C /* ThirdViewController.swift */,
+				0AFCD2D21F16A49B00E8168C /* FourthViewController.swift */,
+				0AFCD2D41F16A4B600E8168C /* FifthViewController.swift */,
 				0AFCD2B21F169FD500E8168C /* Main.storyboard */,
 				0AFCD2B51F169FD500E8168C /* Assets.xcassets */,
 				0AFCD2B71F169FD500E8168C /* LaunchScreen.storyboard */,
@@ -204,9 +213,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AFCD2D51F16A4B600E8168C /* FifthViewController.swift in Sources */,
 				0AFCD2B11F169FD500E8168C /* SecondViewController.swift in Sources */,
 				0AFCD2AD1F169FD500E8168C /* AppDelegate.swift in Sources */,
+				0AFCD2CF1F16A05C00E8168C /* ThirdViewController.swift in Sources */,
 				0AFCD2AF1F169FD500E8168C /* FirstViewController.swift in Sources */,
+				0AFCD2D31F16A49B00E8168C /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
